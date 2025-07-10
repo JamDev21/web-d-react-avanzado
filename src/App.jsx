@@ -1,8 +1,10 @@
+import './index.css'
+import { BasicForm } from './components/basicForm'
 // rafc
 export const App = () => {
   return (
     <div>
-      <a href='http://' target='_blank' rel='noopener noreferrer'> Ir al home</a>
+      <BasicForm />
     </div>
   )
 }
